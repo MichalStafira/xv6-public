@@ -23,7 +23,7 @@ deb http://archive.ubuntu.com/ubuntu bionic main universe restricted multiverse
 deb http://archive.ubuntu.com/ubuntu bionic-security main universe restricted multiverse  
 deb http://archive.ubuntu.com/ubuntu bionic-updates main universe restricted multiverse  
 
-Save the file.
+Save the file. and navigate to Root Directory
 
 <code>sudo apt-get update</code>
 
@@ -42,6 +42,8 @@ Change directory to where xv6 is located
 The OS is now running.
 
 Typing in <code>date</code> into the xv6 shell prompt should print the current UTC time
+
+
 
 <h1>Already have everything done up to cloning my repository (qemu, make, cmake, gdb, gcc, g++, git.. ect Already Installed</h1>
 
