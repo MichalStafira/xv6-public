@@ -43,3 +43,19 @@ The OS is now running.
 
 Typing in <code>date</code> into the xv6 shell prompt should print the current UTC time
 
+<h1>Already have everything done up to cloning my repository (qemu, make, cmake, gdb, gcc, g++, git.. ect Already Installed</h1>
+
+<code> sudo git clone https://MichalStafira/xv6-public.git </code>  
+
+<code> sudo chmod -R -f 777 xv6-public/ </code>  
+
+
+Change directory to where xv6 is located  
+<code>make clean</code>  
+<code>make </code>  
+<code>make qemu-nox</code>  
+
+The OS is now running.
+
+Typing in <code>date</code> into the xv6 shell prompt should print the current UTC time
+
