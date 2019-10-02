@@ -25,15 +25,14 @@ deb http://archive.ubuntu.com/ubuntu bionic-updates main universe restricted mul
 
 Save the file.
 
-Navigate to home directory  
-
 <code>sudo apt-get update</code>
 
-<code> sudo git clone https://github.com/MichalStafira/xv6-public.git </code>  
+<code>sudo apt install qemu</code>
+
+<code> sudo git clone https://MichalStafira/xv6-public.git </code>  
 
 <code> sudo chmod -R -f 777 xv6-public/ </code>  
 
-<code>sudo apt install qemu</code>
 
 Change directory to where xv6 is located  
 <code>make clean</code>  
@@ -43,3 +42,4 @@ Change directory to where xv6 is located
 The OS is now running.
 
 Typing in <code>date</code> into the xv6 shell prompt should print the current UTC time
+
