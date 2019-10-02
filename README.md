@@ -2,7 +2,7 @@
 PA2 Homework CS450
 
 
-<h1>Using an absolutly Fresh install of ubuntu  on Virtual Box  </h1>
+<h1>Using an absolutly Fresh install of Ubuntu  on Virtual Box  </h1>
 
 Open Terminal  
 
