@@ -17,7 +17,7 @@ Open Terminal
 navigate to /etc/apt within terminal
 
 <code>sudo vim sources.list</code>  
-Change this entire file to:
+Change the last 3 lines that begin with "deb" to:
 
 deb http://archive.ubuntu.com/ubuntu bionic main universe restricted multiverse  
 deb http://archive.ubuntu.com/ubuntu bionic-security main universe restricted multiverse  
